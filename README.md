@@ -12,5 +12,6 @@ simple uber project
   > git clone https://github.com/mong991/mongo-muber.git
   > cd mongo-muber
   > npm install
+  > npm run test
   > node index.js
 ```
