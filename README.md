@@ -1,5 +1,6 @@
 # mongo-muber
-simple uber project
+simple uber backend project.
+Use express implement api, then use mocha and supertest to test API.
 
 ##Used
 1. express => 4.14.0
