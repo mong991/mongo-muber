@@ -8,4 +8,6 @@ module.exports = (app) => {
   app.post('/api/drivers', DriversContoller.create);
   app.put('/api/drivers/:id', DriversContoller.edit); // '/api/drivers/23456'
   app.delete('/api/drivers/:id', DriversContoller.delete);
+
+  app.get('/api/drivers', DriversContoller.index);
 };
