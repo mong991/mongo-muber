@@ -5,7 +5,7 @@ module.exports = (app) => {
   // to the route http://locahost:3050/api
   app.get('/api', DriversContoller.greeting);
 
-  // app.post('/api');
-  // app.put('/api');
-  // app.delete('/api');
+  app.post('/api/drivers', DriversContoller.create);
+  app.put('/api/drivers/:id', DriversContoller.edit); // '/api/drivers/23456'
+  app.delete('/api/drivers/:id', DriversContoller.delete);
 };
